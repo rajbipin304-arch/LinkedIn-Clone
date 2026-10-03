@@ -1,0 +1,19 @@
+POST http://localhost:9090/register
+Content-Type: application/json
+
+{
+    "userName": "bipin123",
+    "password": "a3",
+    "email": "bipin@gmail.com",
+    "name": "Bipin"
+}
+
+###
+
+POST http://localhost:9090/login
+Content-Type: application/json
+
+{
+    "email": "bipin@gmail.com",
+    "password": "a3"
+}
